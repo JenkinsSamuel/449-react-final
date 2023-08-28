@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -99,9 +100,3 @@ h1 {
   font-weight: 700;
 }
 
-table, tr, td {
-  background-color: rgba(0,0,0,0.1);
-  color: white;
-  text-align: center;
-  
-}
