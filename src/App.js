@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import Badge from 'react-bootstrap/Badge';
+
 
 
 import { createClient } from "@supabase/supabase-js"
@@ -45,15 +45,6 @@ function Library() {
 
 
 
-function BasicExample() {
-  return (
-    <div>
-      <h1>
-        Welcome<Badge bg="secondary">Hello</Badge>
-      </h1>
-    </div>
-  );
-}
 
 
 
@@ -115,7 +106,7 @@ function App() {
         }
 
         <Library />
-        <BasicExample />
+        
 
       </div>
     </div>
